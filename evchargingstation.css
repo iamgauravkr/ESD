@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+#heading{
+    display: flex;
+    align-items: center;
+    text-align:right;
+    padding-right: 0px;
+    background-color: green;
+    color:white;
+    height:100px;
+    font-size: 80px;
+}
+.evlogo{
+    height: 100px;
+    width:100px;
+    padding-right:500px;
+    display: flex;
+    align-items: center;
+
+}
+.fa-solid{
+    color: white;
+}
+.panel-two{
+    background-color: #222f3d;
+    color: white;
+    /* margin:0px 0px 0px 80px; */
+    height:40px;
+    /* text-align: center; */
+    /* border-radius: 50px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.3rem;
+   
+}
+.nav-search{
+    background-color: pink;
+    height: 30px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    background-color:lightgreen;
+   width: 60px;
+   font-size: 1.2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 4px;
+}
+.panel-two a{
+    display: inline;
+    margin-left: 15px;
+}
+ .nav-search:hover{
+    border:2px solid lightgreen;
+ } 
+
+a{
+    color: white;
+    margin-right:100px ;
+    text-decoration: none;
+}
+.water-img{
+    height:725px;
+    background-image: url("Images/evimages.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    /* opacity: 30%; */
+    
+}
+
+#one{
+    text-align: right;
+    font-weight:900;
+    text-transform: capitalize;
+    font-size: 75px;
+    color:chartreuse;
+
+}
+#two{
+    text-align: right;
+    color: blue;
+    font-size: 25px;
+}
+.title-ev{
+    margin-top:0px;
+    margin-right: 15px;
+}
+
+#three{
+    color:green;
+    font-size:40px ;
+    
+}
+#four{
+    font-weight:lighter;
+   font-family:cursive;
+    font-size:25px ;
+    margin-left:94%;
+    padding-left:30px ;
+    /* display: flex;
+    float: right; */
+}
+#imgone{
+    margin:0px 0px 0px 1000px;
+    height: 400px;
+    width: 700px;
+    float: right;
+    opacity: none;
+}
+#headingtwo{
+    color:rgb(0,255,0);
+    margin-left: 200px;
+    display:inline;
+}
+.service{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.service-section{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+
+}
+.box{
+    height: 400px;
+    width: 23%;
+    /* border: 2px solid black; */
+    
+}
+.box-image{
+    height: 300px;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*footer*/
+.foot-panelone{
+    background-color: #37475a;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    
+}
+.foot-paneltwo{
+    background-color: #37475a;
+    color: white;
+    width: 100%;
+    height: 140px;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+
+}
+  /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+} */
+.imgslider{
+    width: 60%;
+    height: 600px;
+    background-size: 100% 100%;
+    box-shadow:rgba(149,157,165,0.2) 0px 8px 24px;
+    animation: changeimage 10s linear infinite;
+}
+@keyframes changeimage{
+    0%{
+        background-image: url("Images/evbike.jpg");
+    }
+    25%{
+        background-image: url("Images/ev\ cars.webp");
+    }
+    50%{
+        background-image: url("Images/ev\ auto.jpg");
+    }
+    75%{
+        background-image: url("Images/ev\ bus.jpg");
+    }
+    100%{
+        background-image: url("Images/evbike.jpg");
+    }
+}
